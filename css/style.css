@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', Tahoma, Arial, sans-serif;
+}
+body {	
+	align-items: center;
+	background:  #f8f8f8 !important;
+}
+.tombolAksi {
+	width: 75px;
+}
+.nav-item .nav-link {
+	color: grey;
+}
+.nav-item .active {
+	color: black;
+}
+.box-home {
+	background-color:  #fff;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.box-home-content {
+	/* border: 1px solid black; */
+	padding: 50px 60px 50px 60px;
+	margin: 0;
+	box-sizing: border-box;
+}
+.card .card-home-img {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.card .card-home .card-body{
+	background-color: #24222a !important;
+	color: #fff !important;
+}
