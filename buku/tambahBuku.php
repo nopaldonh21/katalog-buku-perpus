@@ -13,7 +13,7 @@ $go = new oop();
 		$redirect = "?page=buku&menu=daftarBuku";	
 		
 		$go->simpan($con, $tabel, $field, $redirect);
-		header('location: index.php'.$redirect);
+		header('location:index.php'.$redirect);
         exit;
 	}
 

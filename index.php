@@ -2,10 +2,8 @@
 
     include "config/koneksi.php";
     include "library/oop.php";
-    require_once 'templates/header.php';
-?>
+    require_once 'templates/header.html';
 
-<?php
     switch(@$_GET['page']){
         case 'home';
         include 'home.php';
@@ -15,6 +13,7 @@
         include 'buku/buku.php';
         break;
     }
+    
+    require_once 'templates/footer.html';
+    
 ?>
-
-<?php require_once 'templates/footer.php'; ?>

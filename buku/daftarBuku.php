@@ -14,12 +14,12 @@ $go = new oop();
 
     if(@$_GET['act']=='edit'){
         $go->ubah($con, $tabel, $field, $where, $redirect);
-        header('location: index.php'.$redirect);
+        header('location:index.php'.$redirect);
         exit;
     }
     elseif (@$_GET['act'] == 'delete'){
         $go->hapus($con, $tabel, $where, $redirect);
-        header('location: index.php'.$redirect);
+        header('location:index.php'.$redirect);
         exit;
     }
 
